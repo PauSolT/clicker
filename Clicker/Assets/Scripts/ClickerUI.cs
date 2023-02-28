@@ -11,6 +11,7 @@ public class ClickerUI : MonoBehaviour
     {
         clicker = FindObjectOfType<Clicker>();
         UpdateMoneyText();
+        InvokeRepeating(nameof(UpdateMoneyText), 1f, 1f);
     }
 
     public void UpdateMoneyText()
