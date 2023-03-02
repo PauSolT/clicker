@@ -6,17 +6,12 @@ using TMPro;
 public class ClickerUI : MonoBehaviour
 {
     public TextMeshProUGUI moneyText;
-    Clicker clicker;
-    private void Awake()
+
+    public void UpdateMoneyText(float money)
     {
-        clicker = FindObjectOfType<Clicker>();
-        UpdateMoneyText();
-        InvokeRepeating(nameof(UpdateMoneyText), 1f, 1f);
+        moneyText.text = money.ToString();
     }
 
-    public void UpdateMoneyText()
-    {
-        moneyText.text = clicker.Money.ToString();
-    }
    
+
 }
