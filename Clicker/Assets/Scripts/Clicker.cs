@@ -10,11 +10,9 @@ public class Clicker : MonoBehaviour
     float earningPerSecond = 1;
 
     public ClickerUI clickerUI;
-    public MoneyGenerator click;
 
     private void Start()
     {
-        click.Init();
         InvokeRepeating(nameof(MoneyPerSecond), 1f, 1f);
     }
 
@@ -26,7 +24,7 @@ public class Clicker : MonoBehaviour
 
     void MoneyPerSecond()
     {
-        Money += earningPerSecond + click.GetGold();
+        Money += earningPerSecond;
         clickerUI.UpdateMoneyText(Money);
     }
 

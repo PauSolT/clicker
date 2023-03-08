@@ -9,16 +9,27 @@ public class GeneratorUI : MonoBehaviour
     public MoneyGenerator generator;
     TextMeshProUGUI cost;
     TextMeshProUGUI number;
+    TextMeshProUGUI totalGoldSecond;
+    TextMeshProUGUI baseGoldSecond;
 
 
     public void Start()
     {
+        generator.Init();
         cost = GetComponentsInChildren<TextMeshProUGUI>()[0];
         number = GetComponentsInChildren<TextMeshProUGUI>()[1];
+        totalGoldSecond = GetComponentsInChildren<TextMeshProUGUI>()[3];
+        baseGoldSecond = GetComponentsInChildren<TextMeshProUGUI>()[4];
+
+        UpdateCost();
+        UpdateNumber();
+        UpdateTotalGoldSecond();
+        UpdateBaseGoldSecond();
 
         Button button = GetComponent<Button>();
         button.onClick.AddListener(UpdateCost);
         button.onClick.AddListener(UpdateNumber);
+        button.onClick.AddListener(UpdateTotalGoldSecond);
     }
 
     public void UpdateCost()
@@ -29,6 +40,16 @@ public class GeneratorUI : MonoBehaviour
     public void UpdateNumber()
     {
         number.text = generator.numberOfGenerators.ToString();
+    }
+
+    public void UpdateTotalGoldSecond()
+    {
+        totalGoldSecond.text = generator.currentGoldGenerator.ToString();
+    }
+
+    public void UpdateBaseGoldSecond()
+    {
+        baseGoldSecond.text = generator.baseGoldGenerator.ToString();
     }
 
 }
