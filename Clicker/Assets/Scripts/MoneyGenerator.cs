@@ -8,10 +8,10 @@ public class MoneyGenerator : ScriptableObject
     Clicker clicker;
 
     public float baseGoldGenerator;
-    public float currentBaseGoldGenerator;
-    public float currentGoldGenerator;
+    public double currentBaseGoldGenerator;
+    public double currentGoldGenerator;
     public float baseCost;
-    public float currentCost;
+    public double currentCost;
     float multiplier = 1;
 
     public int numberOfGenerators = 0;
@@ -24,7 +24,7 @@ public class MoneyGenerator : ScriptableObject
         CalculateCurrentGoldGenerator();
         clicker = FindObjectOfType<Clicker>();
     }
-    public float GetGold()
+    public double GetGold()
     {
         CalculateCurrentGoldGenerator();
         return currentGoldGenerator;
@@ -40,6 +40,7 @@ public class MoneyGenerator : ScriptableObject
             CalculateCurrentCost();
             CalculateCurrentBaseGoldGenerator();
             CalculateCurrentGoldGenerator();
+            clicker.CalculateMoneyPerSecond();
         }
     }
 

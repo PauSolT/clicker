@@ -34,7 +34,7 @@ public class GeneratorUI : MonoBehaviour
 
     public void UpdateCost()
     {
-        cost.text = generator.currentCost.ToString();
+        cost.text = ClickerUI.TextGoldHelper(generator.currentCost);
     }
 
     public void UpdateNumber()
@@ -44,12 +44,12 @@ public class GeneratorUI : MonoBehaviour
 
     public void UpdateTotalGoldSecond()
     {
-        totalGoldSecond.text = generator.currentGoldGenerator.ToString();
+        totalGoldSecond.text = ClickerUI.TextGoldHelper(generator.currentGoldGenerator) + " G/s";
     }
 
     public void UpdateBaseGoldSecond()
     {
-        baseGoldSecond.text = generator.baseGoldGenerator.ToString();
+        baseGoldSecond.text = ClickerUI.TextGoldHelper(generator.baseGoldGenerator) + " G/s";
     }
 
 }
