@@ -347,7 +347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f658f6619714c6c47802309b7eb328f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generator: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
+  generator: {fileID: 11400000, guid: 390d80a87b7a02544a5a733ca0923747, type: 2}
 --- !u!114 &155956874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -391,19 +391,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 155956872}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
-        m_TargetAssemblyTypeName: MoneyGenerator, Assembly-CSharp
-        m_MethodName: UnlockGenerator
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &155956875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -656,7 +644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f658f6619714c6c47802309b7eb328f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generator: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
+  generator: {fileID: 11400000, guid: 25720f60e3528ec4cb29a28cdd5915ff, type: 2}
 --- !u!114 &194189863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -700,19 +688,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 194189861}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
-        m_TargetAssemblyTypeName: MoneyGenerator, Assembly-CSharp
-        m_MethodName: UnlockGenerator
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &194189864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1041,7 +1017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f658f6619714c6c47802309b7eb328f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generator: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
+  generator: {fileID: 11400000, guid: 1c00618eba5e3db4f84ee4eaec2f8ab1, type: 2}
 --- !u!114 &243002775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1085,19 +1061,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 243002773}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
-        m_TargetAssemblyTypeName: MoneyGenerator, Assembly-CSharp
-        m_MethodName: UnlockGenerator
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &243002776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3544,7 +3508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f658f6619714c6c47802309b7eb328f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generator: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
+  generator: {fileID: 11400000, guid: f07747b6872f20a44b82f3ea4eb62be0, type: 2}
 --- !u!114 &676560973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3588,19 +3552,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 676560971}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
-        m_TargetAssemblyTypeName: MoneyGenerator, Assembly-CSharp
-        m_MethodName: UnlockGenerator
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &676560974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4816,19 +4768,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 952240696}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
-        m_TargetAssemblyTypeName: MoneyGenerator, Assembly-CSharp
-        m_MethodName: UnlockGenerator
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &952240692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5485,7 +5425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f658f6619714c6c47802309b7eb328f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generator: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
+  generator: {fileID: 11400000, guid: 1ce84f2324e7e3e46bef77b86954ee2d, type: 2}
 --- !u!114 &1055621608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5529,19 +5469,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1055621606}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
-        m_TargetAssemblyTypeName: MoneyGenerator, Assembly-CSharp
-        m_MethodName: UnlockGenerator
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1055621609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7313,7 +7241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f658f6619714c6c47802309b7eb328f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generator: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
+  generator: {fileID: 11400000, guid: 77a7c294f54819e4b8152e6e9dbbc560, type: 2}
 --- !u!114 &1359203083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7357,19 +7285,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1359203081}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
-        m_TargetAssemblyTypeName: MoneyGenerator, Assembly-CSharp
-        m_MethodName: UnlockGenerator
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1359203084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7565,6 +7481,17 @@ MonoBehaviour:
   clickerUI: {fileID: 1943270322}
   generators:
   - {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
+  - {fileID: 11400000, guid: b9ade860aaced2b488e39c7a33bda397, type: 2}
+  - {fileID: 11400000, guid: 1c00618eba5e3db4f84ee4eaec2f8ab1, type: 2}
+  - {fileID: 11400000, guid: 77a7c294f54819e4b8152e6e9dbbc560, type: 2}
+  - {fileID: 11400000, guid: ffef14500984dc64aaf12f9a84d4cb45, type: 2}
+  - {fileID: 11400000, guid: f07747b6872f20a44b82f3ea4eb62be0, type: 2}
+  - {fileID: 11400000, guid: 45caa25f074b32745a38eaf2bd72d95a, type: 2}
+  - {fileID: 11400000, guid: 390d80a87b7a02544a5a733ca0923747, type: 2}
+  - {fileID: 11400000, guid: 1ce84f2324e7e3e46bef77b86954ee2d, type: 2}
+  - {fileID: 11400000, guid: c078ae948cc438c4cb10b4f7b89bfe20, type: 2}
+  - {fileID: 11400000, guid: 25720f60e3528ec4cb29a28cdd5915ff, type: 2}
+  - {fileID: 11400000, guid: e76d223eefa9de345b5d387ffeae57f9, type: 2}
 --- !u!4 &1396059238
 Transform:
   m_ObjectHideFlags: 0
@@ -7669,7 +7596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f658f6619714c6c47802309b7eb328f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generator: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
+  generator: {fileID: 11400000, guid: e76d223eefa9de345b5d387ffeae57f9, type: 2}
 --- !u!114 &1403866656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7713,19 +7640,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1403866654}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
-        m_TargetAssemblyTypeName: MoneyGenerator, Assembly-CSharp
-        m_MethodName: UnlockGenerator
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1403866657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7843,7 +7758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f658f6619714c6c47802309b7eb328f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generator: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
+  generator: {fileID: 11400000, guid: ffef14500984dc64aaf12f9a84d4cb45, type: 2}
 --- !u!114 &1436124754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7887,19 +7802,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1436124752}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
-        m_TargetAssemblyTypeName: MoneyGenerator, Assembly-CSharp
-        m_MethodName: UnlockGenerator
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1436124755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9762,7 +9665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f658f6619714c6c47802309b7eb328f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generator: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
+  generator: {fileID: 11400000, guid: 45caa25f074b32745a38eaf2bd72d95a, type: 2}
 --- !u!114 &1716264622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9806,19 +9709,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1716264620}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
-        m_TargetAssemblyTypeName: MoneyGenerator, Assembly-CSharp
-        m_MethodName: UnlockGenerator
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1716264623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11008,7 +10899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f658f6619714c6c47802309b7eb328f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generator: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
+  generator: {fileID: 11400000, guid: ffef14500984dc64aaf12f9a84d4cb45, type: 2}
 --- !u!114 &1941757161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11052,19 +10943,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1941757159}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
-        m_TargetAssemblyTypeName: MoneyGenerator, Assembly-CSharp
-        m_MethodName: UnlockGenerator
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1941757162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12185,7 +12064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f658f6619714c6c47802309b7eb328f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generator: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
+  generator: {fileID: 11400000, guid: b9ade860aaced2b488e39c7a33bda397, type: 2}
 --- !u!114 &2038661054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12229,19 +12108,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2038661052}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 3a7ffe58ee4957f4ba37c6384f59df8d, type: 2}
-        m_TargetAssemblyTypeName: MoneyGenerator, Assembly-CSharp
-        m_MethodName: UnlockGenerator
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2038661055
 MonoBehaviour:
   m_ObjectHideFlags: 0

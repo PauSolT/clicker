@@ -27,6 +27,7 @@ public class GeneratorUI : MonoBehaviour
         UpdateBaseGoldSecond();
 
         Button button = GetComponent<Button>();
+        button.onClick.AddListener(generator.UnlockGenerator);
         button.onClick.AddListener(UpdateCost);
         button.onClick.AddListener(UpdateNumber);
         button.onClick.AddListener(UpdateTotalGoldSecond);
@@ -44,12 +45,12 @@ public class GeneratorUI : MonoBehaviour
 
     public void UpdateTotalGoldSecond()
     {
-        totalGoldSecond.text = ClickerUI.TextGoldHelper(generator.currentGoldGenerator) + " G/s";
+        totalGoldSecond.text = ClickerUI.TextGoldHelper(generator.currentGoldGenerator) + "/s";
     }
 
     public void UpdateBaseGoldSecond()
     {
-        baseGoldSecond.text = ClickerUI.TextGoldHelper(generator.baseGoldGenerator) + " G/s";
+        baseGoldSecond.text = ClickerUI.TextGoldHelper(generator.baseGoldGenerator) + "/s";
     }
 
 }

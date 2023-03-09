@@ -15,7 +15,7 @@ public class ClickerUI : MonoBehaviour
 
     public void UpdatMoneyPerSecondText(double moneyPerSecond)
     {
-        moneyPerSecondText.text = TextGoldHelper(moneyPerSecond)+ " G/s" ;
+        moneyPerSecondText.text = TextGoldHelper(moneyPerSecond)+ "/s" ;
     }
 
 
@@ -44,6 +44,6 @@ public class ClickerUI : MonoBehaviour
             suffix = "B";
         }
 
-        return numStr.ToString("#.##") + suffix;
+        return numStr.ToString("0.##") + suffix + " G";
     }
 }
