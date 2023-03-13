@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Coins
   m_EditorClassIdentifier: 
   baseGoldGenerator: 0.1
-  currentBaseGoldGenerator: 0.10000000149011612
-  currentGoldGenerator: 1.1000000163912773
+  currentBaseGoldGenerator: 0.800000011920929
+  currentGoldGenerator: 28.800000429153442
   baseCost: 10
-  currentCost: 46.52390480041504
-  numberOfGenerators: 11
+  currentCost: 1531.517333984375
+  multiplier: 1
+  numberOfGenerators: 36

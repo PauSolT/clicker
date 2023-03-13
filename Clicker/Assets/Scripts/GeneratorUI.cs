@@ -50,7 +50,13 @@ public class GeneratorUI : MonoBehaviour
 
     public void UpdateBaseGoldSecond()
     {
-        baseGoldSecond.text = ClickerUI.TextGoldHelper(generator.baseGoldGenerator) + "/s";
+        baseGoldSecond.text = ClickerUI.TextGoldHelper(generator.currentBaseGoldGenerator) + "/s";
+    }
+
+    public void UpdateUpgradeTexts()
+    {
+        UpdateTotalGoldSecond();
+        UpdateBaseGoldSecond();
     }
 
 }
