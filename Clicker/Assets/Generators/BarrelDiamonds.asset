@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: BarrelDiamonds
   m_EditorClassIdentifier: 
   baseGoldGenerator: 1500000
-  currentBaseGoldGenerator: 0
+  currentBaseGoldGenerator: 1500000
   currentGoldGenerator: 0
-  baseCost: 7.5e+10
-  currentCost: 0
+  baseCost: 7500000000
+  currentCost: 7500000000
+  multiplier: 1
   numberOfGenerators: 0

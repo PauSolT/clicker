@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22be13140e8cf654c857bd2fb61cbb73, type: 3}
   m_Name: CoinUpgrade1
   m_EditorClassIdentifier: 
-  increasedMultilpier: 4
-  cost: 50000
+  increasedMultilpier: 2
+  cost: 100
   unlocked: 0
-  upgradeName: Coins!3
+  upgradeName: Coins!1
   upgradeDescription: Upgrades coins multiplier by

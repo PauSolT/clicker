@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: BagCoins
   m_EditorClassIdentifier: 
   baseGoldGenerator: 10
-  currentBaseGoldGenerator: 0
+  currentBaseGoldGenerator: 10
   currentGoldGenerator: 0
   baseCost: 1200
-  currentCost: 0
+  currentCost: 1200
+  multiplier: 1
   numberOfGenerators: 0

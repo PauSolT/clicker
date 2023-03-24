@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: ChestDiamonds
   m_EditorClassIdentifier: 
   baseGoldGenerator: 65000000
-  currentBaseGoldGenerator: 0
+  currentBaseGoldGenerator: 65000000
   currentGoldGenerator: 0
-  baseCost: 1.5e+13
-  currentCost: 0
+  baseCost: 15000000000000
+  currentCost: 15000000000000
+  multiplier: 1
   numberOfGenerators: 0

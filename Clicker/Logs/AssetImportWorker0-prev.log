@@ -15,7 +15,7 @@ D:/UnityProjects/clicker/Clicker
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63821
+56305
 Successfully changed project path to: D:/UnityProjects/clicker/Clicker
 D:/UnityProjects/clicker/Clicker
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/UnityProjects/clicker/Clicker
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 103.75 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 114.41 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,80 +63,80 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009029 seconds.
+Registered in 0.009068 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 96.12 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 95.38 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.673 seconds
+- Completed reload, in  0.667 seconds
 Domain Reload Profiling:
-	ReloadAssembly (674ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (668ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (492ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (469ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (112ms)
+			SetupTypeCache (111ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (298ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (284ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (68ms)
+				InitializePlatformSupportModulesInManaged (56ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
+				RefreshPlugins (95ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006966 seconds.
+Registered in 0.006115 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\clicker\Clicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\clicker\Clicker\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 92.29 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 97.84 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  1.257 seconds
+- Completed reload, in  1.270 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1257ms)
-		BeginReloadAssembly (234ms)
+	ReloadAssembly (1271ms)
+		BeginReloadAssembly (233ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (144ms)
-		EndReloadAssembly (912ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (140ms)
+		EndReloadAssembly (927ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
+			SetupTypeCache (242ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (487ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (492ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
+				RefreshPlugins (98ms)
 				BeforeProcessingInitializeOnLoad (96ms)
 				ProcessInitializeOnLoadAttributes (234ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -144,12 +144,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4330 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 60 unused Assets / (223.4 KB). Loaded Objects now: 4768.
 Memory consumption went from 161.7 MB to 161.5 MB.
-Total: 3.586900 ms (FindLiveObjects: 0.318900 ms CreateObjectMapping: 0.304400 ms MarkObjects: 2.775600 ms  DeleteObjects: 0.186900 ms)
+Total: 3.422500 ms (FindLiveObjects: 0.490800 ms CreateObjectMapping: 0.402900 ms MarkObjects: 2.376500 ms  DeleteObjects: 0.150800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,97 +163,83 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 33468.169752 seconds.
-  path: Assets/Upgrades/Diamonds/Diamonds/CoinUpgrade1 1.asset
-  artifactKey: Guid(318cdd6f23fcac34c866018818ff97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/Diamonds/CoinUpgrade1 1.asset using Guid(318cdd6f23fcac34c866018818ff97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c21eaaf9f9a6d86e037c4f28d1c615') in 0.033072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.800116 seconds.
-  path: Assets/Upgrades/Diamonds/StackDiamonds/CoinUpgrade1 2.asset
-  artifactKey: Guid(b8dd4a856364b9a4d94a716fbca5024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/StackDiamonds/CoinUpgrade1 2.asset using Guid(b8dd4a856364b9a4d94a716fbca5024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6848884d4ba8ea7f4e783acd4513f53') in 0.001830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.922811 seconds.
-  path: Assets/Upgrades/Diamonds/StackDiamonds/CoinUpgrade1 2.asset
-  artifactKey: Guid(b8dd4a856364b9a4d94a716fbca5024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/StackDiamonds/CoinUpgrade1 2.asset using Guid(b8dd4a856364b9a4d94a716fbca5024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb204d6f9ccd368098e946482f1e6a1b') in 0.001866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.106242 seconds.
-  path: Assets/Upgrades/Diamonds/StackDiamonds/CoinUpgrade1 4.asset
-  artifactKey: Guid(7c166420329dcdc4f9bda23ff4108899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/StackDiamonds/CoinUpgrade1 4.asset using Guid(7c166420329dcdc4f9bda23ff4108899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3c55bb38d6bda942dbc2b1ced68293') in 0.001785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 134.228675 seconds.
-  path: Assets/Upgrades/Diamonds/BagDiamonds/CoinUpgrade1 2.asset
-  artifactKey: Guid(fa80e6c09e4835f4ba09313d95041cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/BagDiamonds/CoinUpgrade1 2.asset using Guid(fa80e6c09e4835f4ba09313d95041cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a3d447632abd9790b5921ecbcf37e6') in 0.001804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.621585 seconds.
-  path: Assets/Upgrades/Diamonds/BagDiamonds/CoinUpgrade1 3.asset
-  artifactKey: Guid(40c05ee9f28286646bf6aefce147d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/BagDiamonds/CoinUpgrade1 3.asset using Guid(40c05ee9f28286646bf6aefce147d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd568379712075239631def0e76789d2c') in 0.002047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.320035 seconds.
-  path: Assets/Upgrades/Diamonds/BagDiamonds/CoinUpgrade1 4.asset
-  artifactKey: Guid(716eef86c15036d48ba01bf385be2862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/BagDiamonds/CoinUpgrade1 4.asset using Guid(716eef86c15036d48ba01bf385be2862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca24845fa945432844c3606e990b8fd6') in 0.001913 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 86.181850 seconds.
-  path: Assets/Upgrades/Diamonds/BarrelDiamond/CoinUpgrade1 2.asset
-  artifactKey: Guid(511649347475a8b44917cbcfb8d50148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/BarrelDiamond/CoinUpgrade1 2.asset using Guid(511649347475a8b44917cbcfb8d50148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6915500f91f2ebaf2f8367f28f049bc7') in 0.001762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.964746 seconds.
-  path: Assets/Upgrades/Diamonds/BarrelDiamond/CoinUpgrade1 3.asset
-  artifactKey: Guid(aa21e5deb07e8d349b84e992ac06f6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/BarrelDiamond/CoinUpgrade1 3.asset using Guid(aa21e5deb07e8d349b84e992ac06f6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3760cd26fb20ca66fbee94ca6a63f06d') in 0.001920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.279162 seconds.
-  path: Assets/Upgrades/Diamonds/BarrelDiamond/CoinUpgrade1 4.asset
-  artifactKey: Guid(ca2afb6c68f4fe94583d31658e07a220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/BarrelDiamond/CoinUpgrade1 4.asset using Guid(ca2afb6c68f4fe94583d31658e07a220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb64efcd22cb53b24b3ef643d1b964e2') in 0.001766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 111.751029 seconds.
-  path: Assets/Upgrades/Diamonds/BagDiamonds/CoinUpgrade1 2.asset
-  artifactKey: Guid(fa80e6c09e4835f4ba09313d95041cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/BagDiamonds/CoinUpgrade1 2.asset using Guid(fa80e6c09e4835f4ba09313d95041cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46047fad16179479134075bf2f9baaf2') in 0.002032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Upgrades/Diamonds/BagDiamonds/CoinUpgrade1 4.asset
-  artifactKey: Guid(716eef86c15036d48ba01bf385be2862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/BagDiamonds/CoinUpgrade1 4.asset using Guid(716eef86c15036d48ba01bf385be2862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8700c189148b6622b5c81b6416c1a1') in 0.002380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.932195 seconds.
-  path: Assets/Upgrades/Diamonds/StackDiamonds/CoinUpgrade1 2.asset
-  artifactKey: Guid(b8dd4a856364b9a4d94a716fbca5024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/StackDiamonds/CoinUpgrade1 2.asset using Guid(b8dd4a856364b9a4d94a716fbca5024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ebc06cc095ac2c84186d31039cdc7f') in 0.002012 seconds 
+  Time since last request: 41280.678181 seconds.
+  path: Assets/Upgrades/Diamonds/BucketDiamonds/CoinUpgrade1 4.asset
+  artifactKey: Guid(eab2a9b886a57064c9f59c8c2a1d5b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Upgrades/Diamonds/BucketDiamonds/CoinUpgrade1 4.asset using Guid(eab2a9b886a57064c9f59c8c2a1d5b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c077a2a900a82ce2f5cc176e516e908') in 0.024444 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Upgrades/Diamonds/StackDiamonds/CoinUpgrade1 4.asset
-  artifactKey: Guid(7c166420329dcdc4f9bda23ff4108899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/StackDiamonds/CoinUpgrade1 4.asset using Guid(7c166420329dcdc4f9bda23ff4108899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036fbcce4a160dfb6209121bd5ca9796') in 0.002364 seconds 
+  path: Assets/Upgrades/Diamonds/BucketDiamonds/CoinUpgrade1 3.asset
+  artifactKey: Guid(6433f055afbc1ee4a952fd970a013dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Upgrades/Diamonds/BucketDiamonds/CoinUpgrade1 3.asset using Guid(6433f055afbc1ee4a952fd970a013dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3a2d7dee89d43980fdcc4b5e3ce2fb') in 0.002837 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 317.854189 seconds.
+  Time since last request: 0.000018 seconds.
   path: Assets/Upgrades/Diamonds/BucketDiamonds/CoinUpgrade1 2.asset
   artifactKey: Guid(24b71480fa4ddfd4b9b064b0a3a0a3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/BucketDiamonds/CoinUpgrade1 2.asset using Guid(24b71480fa4ddfd4b9b064b0a3a0a3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34212774190ffd5e3f48fb771f43d48d') in 0.001992 seconds 
+Start importing Assets/Upgrades/Diamonds/BucketDiamonds/CoinUpgrade1 2.asset using Guid(24b71480fa4ddfd4b9b064b0a3a0a3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c112d2c3869af913370443b9a348f73e') in 0.001843 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.546760 seconds.
-  path: Assets/Upgrades/Diamonds/BucketDiamonds/CoinUpgrade1 2.asset
-  artifactKey: Guid(24b71480fa4ddfd4b9b064b0a3a0a3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Upgrades/Diamonds/BucketDiamonds/CoinUpgrade1 2.asset using Guid(24b71480fa4ddfd4b9b064b0a3a0a3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb291278bcb80d47961ebfa1b479fcb') in 0.001785 seconds 
+  Time since last request: 2297.985563 seconds.
+  path: Assets/Upgrades/Coins/BagCoins/CoinUpgrade1 2.asset
+  artifactKey: Guid(c2c4df1359ff5cf4a8189d3f8ba611e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Upgrades/Coins/BagCoins/CoinUpgrade1 2.asset using Guid(c2c4df1359ff5cf4a8189d3f8ba611e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924f83ddfd8c1f979fced6dac94564bd') in 0.002453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004649 seconds.
+  path: Assets/Upgrades/Coins/BarrelCoins/CoinUpgrade1 3.asset
+  artifactKey: Guid(7bf91f7ab9a5a3d49857fc88b6fe9d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Upgrades/Coins/BarrelCoins/CoinUpgrade1 3.asset using Guid(7bf91f7ab9a5a3d49857fc88b6fe9d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70286ed17e69d8449b578744fe4817cc') in 0.001795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013092 seconds.
+  path: Assets/Upgrades/Coins/BucketCoins/CoinUpgrade1 3.asset
+  artifactKey: Guid(1e3b602b1c376bd45b65e6b700808ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Upgrades/Coins/BucketCoins/CoinUpgrade1 3.asset using Guid(1e3b602b1c376bd45b65e6b700808ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a1652069184d1ce0102a319e8a6554') in 0.003323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Upgrades/Coins/BucketCoins/CoinUpgrade1 4.asset
+  artifactKey: Guid(c0bafe0582d16b54abd5e5a7ea3bf7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Upgrades/Coins/BucketCoins/CoinUpgrade1 4.asset using Guid(c0bafe0582d16b54abd5e5a7ea3bf7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7818b1596a4f7873a33280ca102770c') in 0.001943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Upgrades/Coins/BagCoins/CoinUpgrade1 3.asset
+  artifactKey: Guid(36d79a0433de8364ebab02caf820970f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Upgrades/Coins/BagCoins/CoinUpgrade1 3.asset using Guid(36d79a0433de8364ebab02caf820970f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96e1ccb72b6145527c6feecedb46b7f') in 0.002186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Upgrades/Coins/ChestCoins/CoinUpgrade1 4.asset
+  artifactKey: Guid(32d33208acc95464dbb45528192e5814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Upgrades/Coins/ChestCoins/CoinUpgrade1 4.asset using Guid(32d33208acc95464dbb45528192e5814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee5533c0f2c366989aea050a1e28eb7') in 0.001902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Upgrades/Coins/ChestCoins/CoinUpgrade1 3.asset
+  artifactKey: Guid(e6596a31f2a189c469ca4623bc092718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Upgrades/Coins/ChestCoins/CoinUpgrade1 3.asset using Guid(e6596a31f2a189c469ca4623bc092718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b655a87c942d2fcc1180e680bd1bb06') in 0.002033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Upgrades/Diamonds/BagDiamonds/CoinUpgrade1 3.asset
+  artifactKey: Guid(40c05ee9f28286646bf6aefce147d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Upgrades/Diamonds/BagDiamonds/CoinUpgrade1 3.asset using Guid(40c05ee9f28286646bf6aefce147d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8992c17290c7ce11b65494f63c5fda43') in 0.002012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Upgrades/Coins/ChestCoins/CoinUpgrade1 2.asset
+  artifactKey: Guid(4b2bbd2af33461d458b5a9d517231060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Upgrades/Coins/ChestCoins/CoinUpgrade1 2.asset using Guid(4b2bbd2af33461d458b5a9d517231060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36ec5c35a46bcf57d27d5f721520ba6') in 0.002219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Upgrades/Coins/BagCoins/CoinUpgrade1 4.asset
+  artifactKey: Guid(f9267e155f4cbb045886f59c7639b959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Upgrades/Coins/BagCoins/CoinUpgrade1 4.asset using Guid(f9267e155f4cbb045886f59c7639b959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbcd604fd4e94e650e20fbb05549896') in 0.002038 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

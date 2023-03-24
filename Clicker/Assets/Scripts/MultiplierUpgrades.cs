@@ -19,6 +19,7 @@ public class MultiplierUpgrades : MonoBehaviour
         GetComponentsInChildren<TextMeshProUGUI>()[0].text = upgradeInfo.upgradeName;
         GetComponentsInChildren<TextMeshProUGUI>()[1].text = upgradeInfo.upgradeDescription + " " +upgradeInfo.increasedMultilpier.ToString();
         GetComponentsInChildren<TextMeshProUGUI>()[2].text = ClickerUI.TextGoldHelper(upgradeInfo.cost);
+        upgradeInfo.unlocked = false;
     }
 
     public void UnlockUpgrade()

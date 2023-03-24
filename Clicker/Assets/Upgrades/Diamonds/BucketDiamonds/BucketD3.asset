@@ -9,13 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 989cce6691e3edf46993a7f111177e11, type: 3}
-  m_Name: Coins
+  m_Script: {fileID: 11500000, guid: 22be13140e8cf654c857bd2fb61cbb73, type: 3}
+  m_Name: BucketD3
   m_EditorClassIdentifier: 
-  baseGoldGenerator: 0.1
-  currentBaseGoldGenerator: 0.1
-  currentGoldGenerator: 0
-  baseCost: 10
-  currentCost: 10
-  multiplier: 1
-  numberOfGenerators: 0
+  increasedMultilpier: 4
+  cost: 25000000000000000
+  unlocked: 0
+  upgradeName: Coins!3
+  upgradeDescription: Upgrades coins multiplier by

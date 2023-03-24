@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: BucketDiamonds
   m_EditorClassIdentifier: 
   baseGoldGenerator: 10000000
-  currentBaseGoldGenerator: 0
+  currentBaseGoldGenerator: 10000000
   currentGoldGenerator: 0
-  baseCost: 1e+12
-  currentCost: 0
+  baseCost: 1000000000000
+  currentCost: 1000000000000
+  multiplier: 1
   numberOfGenerators: 0

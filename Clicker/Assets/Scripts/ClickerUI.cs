@@ -38,10 +38,20 @@ public class ClickerUI : MonoBehaviour
             numStr = money / 1000000d;
             suffix = "M";
         }
-        else
+        else if (money < 1000000000000d)
         {
             numStr = money / 1000000000d;
             suffix = "B";
+        }
+        else if (money < 1000000000000000d)
+        {
+            numStr = money / 1000000000000d;
+            suffix = "T";
+        }
+        else 
+        {
+            numStr = money / 1000000000000000d;
+            suffix = "Q";
         }
 
         return numStr.ToString("0.##") + suffix + " G";
