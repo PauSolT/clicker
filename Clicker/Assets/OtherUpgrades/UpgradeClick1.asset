@@ -9,13 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 989cce6691e3edf46993a7f111177e11, type: 3}
-  m_Name: BarrelDiamonds
+  m_Script: {fileID: 11500000, guid: ebbd2adf07c1a5a459fb32fcc047c8a2, type: 3}
+  m_Name: UpgradeClick1
   m_EditorClassIdentifier: 
-  baseGoldGenerator: 1500000
-  currentBaseGoldGenerator: 1500000
-  currentGoldGenerator: 0
-  baseCost: 75000000000
-  currentCost: 75000000000
-  multiplier: 1
-  numberOfGenerators: 0
+  unlocked: 0
+  cost: 1000

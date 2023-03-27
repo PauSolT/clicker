@@ -45,7 +45,7 @@ public class GeneratorUI : MonoBehaviour
 
     public void UpdateTotalGoldSecond()
     {
-        totalGoldSecond.text = ClickerUI.TextGoldHelper(generator.currentGoldGenerator) + "/s";
+        totalGoldSecond.text = ClickerUI.TextGoldHelper(generator.GetGold()) + "/s";
     }
 
     public void UpdateBaseGoldSecond()

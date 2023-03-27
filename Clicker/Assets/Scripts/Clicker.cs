@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Clicker : MonoBehaviour
 {
-    public double Money { get; set; } = 10000;
+    public double Money { get; set; } = 10000000d;
 
-    float baseEarning = 1;
-    public double EarningPerSecond { get; set; } = 0;
+    readonly double baseEarning = 1d;
+    public double UpgradedEarning { get; set; } = 0d;
+    public double PerCerntEarning { get; set; } = 0d;
+    public double EarningPerSecond { get; set; } = 0d;
 
     public ClickerUI clickerUI;
     public MoneyGenerator[] generators;
@@ -16,6 +18,7 @@ public class Clicker : MonoBehaviour
 
     private void Start()
     {
+        //Money = double.Parse(PlayerPrefs.GetString("money", "0d"));
         CalculateMoneyPerSecond();
         clickerUI.UpdatMoneyPerSecondText(EarningPerSecond);
         clickerUI.UpdateMoneyText(Money);
@@ -34,8 +37,15 @@ public class Clicker : MonoBehaviour
 
     public void ClickMoney()
     {
-        Money += baseEarning;
+        CalculateUpgradedEarning();
+        Money += baseEarning + UpgradedEarning;
         clickerUI.UpdateMoneyText(Money);
+    }
+
+    void CalculateUpgradedEarning()
+    {
+        CalculateMoneyPerSecond();
+        UpgradedEarning = EarningPerSecond * PerCerntEarning;
     }
 
     void MoneyPerSecond()
@@ -55,6 +65,20 @@ public class Clicker : MonoBehaviour
         EarningPerSecond = finalEarnings;
 
         clickerUI.UpdatMoneyPerSecondText(EarningPerSecond);
+    }
+
+    private void OnApplicationQuit()
+    {
+        PlayerPrefs.SetString("money", Money.ToString());
+    }
+
+    private void OnApplicationFocus(bool focus)
+    {
+        if (!focus)
+            PlayerPrefs.SetString("money", Money.ToString());
+
+        //if (focus)
+        //    Money = double.Parse(PlayerPrefs.GetString("money", "0d"));
     }
 
 

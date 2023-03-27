@@ -52,7 +52,7 @@ public class MoneyGenerator : ScriptableObject
 
     public void CalculateCurrentBaseGoldGenerator()
     {
-        currentBaseGoldGenerator = (double)baseGoldGenerator * (double)multiplier;
+        currentBaseGoldGenerator = baseGoldGenerator * (double)multiplier;
     }
 
     public void CalculateCurrentGoldGenerator()
