@@ -7,6 +7,17 @@ public class ClickerUI : MonoBehaviour
 {
     public TextMeshProUGUI moneyText;
     public TextMeshProUGUI moneyPerSecondText;
+    public List<TextMeshProUGUI> clickMoneyList;
+    public Queue<TextMeshProUGUI> clickMoneyText;
+
+    private void Start()
+    {
+        clickMoneyText = new();
+        foreach (TextMeshProUGUI txt in clickMoneyList)
+        {
+            clickMoneyText.Enqueue(txt);
+        }
+    }
 
     public void UpdateMoneyText(double money)
     {

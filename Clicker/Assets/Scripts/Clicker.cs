@@ -40,6 +40,7 @@ public class Clicker : MonoBehaviour
         CalculateUpgradedEarning();
         Money += baseEarning + UpgradedEarning;
         clickerUI.UpdateMoneyText(Money);
+        StartCoroutine(nameof(ClickTextDissapear));
     }
 
     void CalculateUpgradedEarning()
@@ -81,6 +82,29 @@ public class Clicker : MonoBehaviour
         //    Money = double.Parse(PlayerPrefs.GetString("money", "0d"));
     }
 
+
+    IEnumerator ClickTextDissapear()
+    {
+        Vector3 mousePos = Input.mousePosition;
+        TMPro.TextMeshProUGUI text = clickerUI.clickMoneyText.Dequeue();
+        text.gameObject.SetActive(true);
+        text.transform.position = mousePos;
+
+        text.text = "+" + ClickerUI.TextGoldHelper(baseEarning + UpgradedEarning);
+        clickerUI.clickMoneyText.Enqueue(text);
+
+        Color c = text.color;
+        for (float alpha = 1f; alpha >= 0; alpha -= .01f)
+        {
+            c.a = alpha;
+            text.color = c;
+            text.transform.position += 1 * Vector3.up;
+            yield return new WaitForSeconds(.01f);
+        }
+
+        text.gameObject.SetActive(false);
+        yield return null;
+    }
 
 
 }
