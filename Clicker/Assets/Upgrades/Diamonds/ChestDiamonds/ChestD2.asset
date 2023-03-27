@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 3
   cost: 3500000000000000
   unlocked: 0
-  upgradeName: Coins!1
-  upgradeDescription: Upgrades coins multiplier by
+  upgradeName: Sealed Chest
+  upgradeDescription: Upgrades diamond chest multiplier by

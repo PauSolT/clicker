@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 3
   cost: 250000000000000
   unlocked: 0
-  upgradeName: Coins!2
-  upgradeDescription: Upgrades coins multiplier by
+  upgradeName: Emerald Bucket
+  upgradeDescription: Upgrades bucket of diamonds multiplier by

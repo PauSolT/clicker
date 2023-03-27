@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 4
   cost: 2500000
   unlocked: 0
-  upgradeName: Triple stack
+  upgradeName: Triple Stack
   upgradeDescription: Upgrades stack of coins multiplier by

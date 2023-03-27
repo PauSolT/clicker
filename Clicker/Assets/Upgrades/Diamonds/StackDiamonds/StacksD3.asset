@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 4
   cost: 8000000000000
   unlocked: 0
-  upgradeName: Coins!3
-  upgradeDescription: Upgrades coins multiplier by
+  upgradeName: 64
+  upgradeDescription: Upgrades stack of diamonds multiplier by

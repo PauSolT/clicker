@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 2
   cost: 750000000000
   unlocked: 0
-  upgradeName: Coins!1
-  upgradeDescription: Upgrades coins multiplier by
+  upgradeName: Mine Barrel
+  upgradeDescription: Upgrades barrel of diamonds multiplier by

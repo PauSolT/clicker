@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 4
   cost: 35000000000
   unlocked: 0
-  upgradeName: Coins!3
-  upgradeDescription: Upgrades coins multiplier by
+  upgradeName: Legendary Chest
+  upgradeDescription: Upgrades coin chest multiplier by

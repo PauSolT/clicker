@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 4
   cost: 2000000000000000
   unlocked: 0
-  upgradeName: Coins!3
-  upgradeDescription: Upgrades coins multiplier by
+  upgradeName: Polished Barrel
+  upgradeDescription: Upgrades barrel of diamonds multiplier by

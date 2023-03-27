@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 4
   cost: 300000000
   unlocked: 0
-  upgradeName: Coins!3
-  upgradeDescription: Upgrades coins multiplier by
+  upgradeName: Reinforced Barrel
+  upgradeDescription: Upgrades barrel of coins multiplier by

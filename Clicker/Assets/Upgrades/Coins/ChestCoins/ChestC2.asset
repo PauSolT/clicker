@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 3
   cost: 350000000
   unlocked: 0
-  upgradeName: Coins!2
-  upgradeDescription: Upgrades coins multiplier by
+  upgradeName: Epic Chest
+  upgradeDescription: Upgrades coin chest multiplier by

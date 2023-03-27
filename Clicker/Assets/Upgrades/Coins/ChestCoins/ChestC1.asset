@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 2
   cost: 15000000
   unlocked: 0
-  upgradeName: Coins!
-  upgradeDescription: Upgrades coins multiplier by
+  upgradeName: Rare Chest
+  upgradeDescription: Upgrades coin chest multiplier by

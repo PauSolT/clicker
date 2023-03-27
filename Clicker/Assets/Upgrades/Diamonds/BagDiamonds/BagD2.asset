@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 3
   cost: 1250000000000
   unlocked: 0
-  upgradeName: Coins!2
-  upgradeDescription: Upgrades coins multiplier by
+  upgradeName: Stylish Bag
+  upgradeDescription: Upgrades bag of diamonds multiplier by

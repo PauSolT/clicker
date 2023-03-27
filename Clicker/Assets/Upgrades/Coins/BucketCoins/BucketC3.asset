@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 4
   cost: 3750000000
   unlocked: 0
-  upgradeName: Coins!3
-  upgradeDescription: Upgrades coins multiplier by
+  upgradeName: Four Buckets
+  upgradeDescription: Upgrades bucket of coins multiplier by

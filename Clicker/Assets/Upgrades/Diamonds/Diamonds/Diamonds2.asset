@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 3
   cost: 5000000000
   unlocked: 0
-  upgradeName: Coins!
-  upgradeDescription: Upgrades coins multiplier by
+  upgradeName: Synthetic Diamonds
+  upgradeDescription: Upgrades diamonds multiplier by

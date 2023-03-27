@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 2
   cost: 10000000000000
   unlocked: 0
-  upgradeName: Coins!
-  upgradeDescription: Upgrades coins multiplier by
+  upgradeName: Aquamarine Bucket
+  upgradeDescription: Upgrades bucket of diamonds multiplier by

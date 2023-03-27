@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 2
   cost: 10000
   unlocked: 0
-  upgradeName: Coins!1
+  upgradeName: Big Bag
   upgradeDescription: Upgrades bag of coins multiplier by
