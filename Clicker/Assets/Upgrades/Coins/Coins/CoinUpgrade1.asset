@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 2
   cost: 100
   unlocked: 0
-  upgradeName: Coins!1
+  upgradeName: Coins!
   upgradeDescription: Upgrades coins multiplier by

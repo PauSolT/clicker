@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 3
   cost: 25000
   unlocked: 0
-  upgradeName: Coins!2
-  upgradeDescription: Upgrades coins multiplier by
+  upgradeName: Double stack
+  upgradeDescription: Upgrades stack of coins multiplier by
