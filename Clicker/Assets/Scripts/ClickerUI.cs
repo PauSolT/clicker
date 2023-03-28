@@ -8,7 +8,10 @@ public class ClickerUI : MonoBehaviour
     public TextMeshProUGUI moneyText;
     public TextMeshProUGUI moneyPerSecondText;
     public List<TextMeshProUGUI> clickMoneyList;
+    public List<ParticleSystem> particles;
     public Queue<TextMeshProUGUI> clickMoneyText;
+
+    int i = 0;
 
     private void Start()
     {
@@ -27,6 +30,16 @@ public class ClickerUI : MonoBehaviour
     public void UpdatMoneyPerSecondText(double moneyPerSecond)
     {
         moneyPerSecondText.text = TextGoldHelper(moneyPerSecond)+ "/s" ;
+    }
+
+    public void PlayParticles(Vector3 pos)
+    {
+        particles[i].transform.position = pos;
+        particles[i].Play();
+
+        i++;
+        if (i == particles.Count)
+            i = 0;
     }
 
 

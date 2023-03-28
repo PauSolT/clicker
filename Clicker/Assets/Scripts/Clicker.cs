@@ -85,20 +85,21 @@ public class Clicker : MonoBehaviour
 
     IEnumerator ClickTextDissapear()
     {
-        Vector3 mousePos = Input.mousePosition;
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition + Vector3.forward);
         TMPro.TextMeshProUGUI text = clickerUI.clickMoneyText.Dequeue();
         text.gameObject.SetActive(true);
         text.transform.position = mousePos;
 
         text.text = "+" + ClickerUI.TextGoldHelper(baseEarning + UpgradedEarning);
         clickerUI.clickMoneyText.Enqueue(text);
+        clickerUI.PlayParticles(mousePos);
 
         Color c = text.color;
         for (float alpha = 1f; alpha >= 0; alpha -= .01f)
         {
             c.a = alpha;
             text.color = c;
-            text.transform.position += 1 * Vector3.up;
+            text.transform.position += 1 * Vector3.up * Time.deltaTime;
             yield return new WaitForSeconds(.01f);
         }
 
