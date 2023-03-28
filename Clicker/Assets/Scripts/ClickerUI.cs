@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
 public class ClickerUI : MonoBehaviour
 {
     public TextMeshProUGUI moneyText;
@@ -10,15 +11,80 @@ public class ClickerUI : MonoBehaviour
     public List<TextMeshProUGUI> clickMoneyList;
     public List<ParticleSystem> particles;
     public Queue<TextMeshProUGUI> clickMoneyText;
+    public List<UpgradeClickEarning> upgradeClickEarnings;
 
     int i = 0;
+    public int ClicksUnlocked { get; set; } = 0;
 
-    private void Start()
+    public void Init()
     {
         clickMoneyText = new();
         foreach (TextMeshProUGUI txt in clickMoneyList)
         {
             clickMoneyText.Enqueue(txt);
+        }
+
+        foreach (UpgradeClickEarning uc in upgradeClickEarnings)
+        {
+            if (uc.upgradedClick.unlocked)
+            {
+                ClicksUnlocked++;
+            }
+        }
+        SetParticlesBurstCount(ClicksUnlocked);
+        
+    }
+
+    public void SetParticlesBurstCount(int unlocked)
+    {
+        switch (unlocked)
+        {
+            case 1:
+                foreach (ParticleSystem ps in particles)
+                {
+                    ParticleSystem.Burst em = ps.emission.GetBurst(0); ;
+                    em.minCount = 3;
+                    em.maxCount = 5;
+                    ps.emission.SetBurst(0, em);
+                }
+                break;
+            case 2:
+                foreach (ParticleSystem ps in particles)
+                {
+                    ParticleSystem.Burst em = ps.emission.GetBurst(0); ;
+                    em.minCount = 5;
+                    em.maxCount = 7;
+                    ps.emission.SetBurst(0, em);
+                }
+                break;
+            case 3:
+                foreach (ParticleSystem ps in particles)
+                {
+                    ParticleSystem.Burst em = ps.emission.GetBurst(0); ;
+                    em.minCount = 7;
+                    em.maxCount = 10;
+                    ps.emission.SetBurst(0, em);
+                }
+                break;
+            case 4:
+                foreach (ParticleSystem ps in particles)
+                {
+                    ParticleSystem.Burst em = ps.emission.GetBurst(0); ;
+                    em.minCount = 10;
+                    em.maxCount = 15;
+                    ps.emission.SetBurst(0, em);
+                }
+                break;
+            case 0:
+            default:
+                foreach (ParticleSystem ps in particles)
+                {
+                    ParticleSystem.Burst em = ps.emission.GetBurst(0); ;
+                    em.minCount = 1;
+                    em.maxCount = 3;
+                    ps.emission.SetBurst(0, em);
+                }
+                break;
         }
     }
 

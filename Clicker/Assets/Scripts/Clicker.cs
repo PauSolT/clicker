@@ -13,15 +13,19 @@ public class Clicker : MonoBehaviour
 
     public ClickerUI clickerUI;
     public MoneyGenerator[] generators;
+    public List<UpgradeClickEarning> upgradeClickEarnings;
 
     float timer = 0;
 
     private void Start()
     {
+        clickerUI.Init();
         //Money = double.Parse(PlayerPrefs.GetString("money", "0d"));
         CalculateMoneyPerSecond();
         clickerUI.UpdatMoneyPerSecondText(EarningPerSecond);
         clickerUI.UpdateMoneyText(Money);
+
+        PerCerntEarning = 0.25d * clickerUI.ClicksUnlocked;
     }
 
     private void Update()

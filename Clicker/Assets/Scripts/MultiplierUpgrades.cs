@@ -30,8 +30,8 @@ public class MultiplierUpgrades : MonoBehaviour
             clicker.Money >= upgradeInfo.cost)
         {
             clicker.Money -= upgradeInfo.cost;
-            //generator.generator.multiplier *= upgradeInfo.increasedMultilpier;
-            //upgradeInfo.unlocked = true;
+            generator.generator.multiplier *= upgradeInfo.increasedMultilpier;
+            upgradeInfo.unlocked = true;
             generator.generator.CalculateCurrentBaseGoldGenerator();
             generator.generator.CalculateCurrentGoldGenerator();
             generator.UpdateUpgradeTexts();

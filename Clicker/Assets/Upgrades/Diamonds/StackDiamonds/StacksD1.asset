@@ -15,5 +15,5 @@ MonoBehaviour:
   increasedMultilpier: 2
   cost: 3250000000
   unlocked: 0
-  upgradeName: 16
+  upgradeName: 16 Diamonds
   upgradeDescription: Upgrades stack of diamonds multiplier by

@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: ChestCoins
   m_EditorClassIdentifier: 
   baseGoldGenerator: 1500
-  currentBaseGoldGenerator: 0
+  currentBaseGoldGenerator: 1500
   currentGoldGenerator: 0
   baseCost: 1500000
-  currentCost: 0
+  currentCost: 1500000
+  multiplier: 1
   numberOfGenerators: 0

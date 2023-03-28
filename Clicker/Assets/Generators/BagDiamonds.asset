@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: BagDiamonds
   m_EditorClassIdentifier: 
   baseGoldGenerator: 250000
-  currentBaseGoldGenerator: 0
+  currentBaseGoldGenerator: 250000
   currentGoldGenerator: 0
-  baseCost: 5e+9
-  currentCost: 0
+  baseCost: 5000000000
+  currentCost: 5000000000
+  multiplier: 1
   numberOfGenerators: 0

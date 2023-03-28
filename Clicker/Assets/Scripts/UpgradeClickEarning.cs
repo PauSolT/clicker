@@ -37,6 +37,8 @@ public class UpgradeClickEarning : MonoBehaviour
             clicker.PerCerntEarning += 0.25d;
             upgradedClick.unlocked = true;
             Unlocked();
+            clicker.clickerUI.ClicksUnlocked++;
+            clicker.clickerUI.SetParticlesBurstCount(clicker.clickerUI.ClicksUnlocked);
         }
     }
 

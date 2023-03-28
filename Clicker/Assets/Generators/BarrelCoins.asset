@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: BarrelCoins
   m_EditorClassIdentifier: 
   baseGoldGenerator: 50
-  currentBaseGoldGenerator: 0
+  currentBaseGoldGenerator: 50
   currentGoldGenerator: 0
   baseCost: 15000
-  currentCost: 0
+  currentCost: 15000
+  multiplier: 1
   numberOfGenerators: 0
