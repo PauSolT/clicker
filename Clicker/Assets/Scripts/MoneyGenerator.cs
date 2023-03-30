@@ -36,6 +36,7 @@ public class MoneyGenerator : ScriptableObject
         if (clicker.Money >= currentCost)
         {
             clicker.Money -= currentCost;
+            SoundManager.Instance.PlayGenerator();
             clicker.clickerUI.UpdateMoneyText(clicker.Money);
             numberOfGenerators++;
             CalculateCurrentCost();

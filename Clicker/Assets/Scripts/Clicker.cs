@@ -44,6 +44,7 @@ public class Clicker : MonoBehaviour
         CalculateUpgradedEarning();
         Money += baseEarning + UpgradedEarning;
         clickerUI.UpdateMoneyText(Money);
+        SoundManager.Instance.PlayClick();
         StartCoroutine(nameof(ClickTextDissapear));
     }
 

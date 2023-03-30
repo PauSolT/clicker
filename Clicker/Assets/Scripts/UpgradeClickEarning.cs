@@ -34,6 +34,7 @@ public class UpgradeClickEarning : MonoBehaviour
         {
             clicker.Money -= upgradedClick.cost;
             clicker.clickerUI.UpdateMoneyText(clicker.Money);
+            SoundManager.Instance.PlayUpgrade();
             clicker.PerCerntEarning += 0.25d;
             upgradedClick.unlocked = true;
             Unlocked();

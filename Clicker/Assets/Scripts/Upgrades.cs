@@ -8,6 +8,7 @@ public class Upgrades : ScriptableObject
     public float increasedMultilpier;
     public double cost;
     public bool unlocked = false;
+    public bool genUnlocked = false;
 
     public string upgradeName;
     public string upgradeDescription;

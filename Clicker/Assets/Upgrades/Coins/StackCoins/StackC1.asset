@@ -15,5 +15,6 @@ MonoBehaviour:
   increasedMultilpier: 2
   cost: 1000
   unlocked: 0
+  genUnlocked: 1
   upgradeName: More Coins!
   upgradeDescription: Upgrades stack of coins multiplier by

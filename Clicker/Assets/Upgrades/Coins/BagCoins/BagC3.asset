@@ -15,5 +15,6 @@ MonoBehaviour:
   increasedMultilpier: 4
   cost: 25000000
   unlocked: 0
+  genUnlocked: 0
   upgradeName: Even bigger
   upgradeDescription: Upgrades bag of coins multiplier by

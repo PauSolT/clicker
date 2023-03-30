@@ -12,6 +12,7 @@ public class GeneratorUI : MonoBehaviour
     TextMeshProUGUI totalGoldSecond;
     TextMeshProUGUI baseGoldSecond;
 
+    public MultiplierUpgrades[] upgrades;
 
     public void Start()
     {
@@ -31,6 +32,15 @@ public class GeneratorUI : MonoBehaviour
         button.onClick.AddListener(UpdateCost);
         button.onClick.AddListener(UpdateNumber);
         button.onClick.AddListener(UpdateTotalGoldSecond);
+        button.onClick.AddListener(UnlockUpgrades);
+    }
+
+    public void UnlockUpgrades()
+    {
+        foreach (MultiplierUpgrades go in upgrades)
+        {
+            go.upgradeInfo.genUnlocked = true;
+        }
     }
 
     public void UpdateCost()

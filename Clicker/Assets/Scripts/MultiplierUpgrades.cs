@@ -10,6 +10,7 @@ public class MultiplierUpgrades : MonoBehaviour
     public Upgrades upgradeInfo;
     Clicker clicker;
     Button button;
+
     private void Start()
     {
         clicker = FindObjectOfType<Clicker>();
@@ -32,6 +33,7 @@ public class MultiplierUpgrades : MonoBehaviour
             clicker.Money -= upgradeInfo.cost;
             generator.generator.multiplier *= upgradeInfo.increasedMultilpier;
             upgradeInfo.unlocked = true;
+            SoundManager.Instance.PlayUpgrade();
             generator.generator.CalculateCurrentBaseGoldGenerator();
             generator.generator.CalculateCurrentGoldGenerator();
             generator.UpdateUpgradeTexts();
