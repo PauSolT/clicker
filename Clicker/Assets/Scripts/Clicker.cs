@@ -19,8 +19,8 @@ public class Clicker : MonoBehaviour
 
     private void Start()
     {
+        StartSave();
         clickerUI.Init();
-        //Money = double.Parse(PlayerPrefs.GetString("money", "0d"));
         CalculateMoneyPerSecond();
         clickerUI.UpdatMoneyPerSecondText(EarningPerSecond);
         clickerUI.UpdateMoneyText(Money);
@@ -76,15 +76,25 @@ public class Clicker : MonoBehaviour
     private void OnApplicationQuit()
     {
         PlayerPrefs.SetString("money", Money.ToString());
+        PlayerPrefs.SetInt("muted", SoundManager.Instance.muted);
     }
 
     private void OnApplicationFocus(bool focus)
     {
         if (!focus)
+        {
             PlayerPrefs.SetString("money", Money.ToString());
+            PlayerPrefs.SetInt("muted", SoundManager.Instance.muted);
+        }
 
         //if (focus)
         //    Money = double.Parse(PlayerPrefs.GetString("money", "0d"));
+    }
+
+    private void StartSave()
+    {
+        //Money = double.Parse(PlayerPrefs.GetString("money", "0d"));
+
     }
 
 

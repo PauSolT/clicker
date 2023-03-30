@@ -6,6 +6,8 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     AudioSource[] sounds;
+    public GameObject image;
+    public int muted = 0;
 
     public static SoundManager Instance { get; private set; }
     private void Awake()
@@ -23,7 +25,10 @@ public class SoundManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        sounds = GetComponents<AudioSource>();    
+        muted = PlayerPrefs.GetInt("muted", 0);
+        sounds = GetComponents<AudioSource>();
+        if (muted == 1)
+            MuteAll();
     }
 
     public void MuteAll()
@@ -32,6 +37,8 @@ public class SoundManager : MonoBehaviour
         {
             source.mute = true;
         }
+        muted = 1;
+        image.SetActive(true);
     }
 
     public void UnmuteAll()
@@ -40,6 +47,8 @@ public class SoundManager : MonoBehaviour
         {
             source.mute = false;
         }
+        muted = 0;
+        image.SetActive(false);
     }
 
     public void PlayClick()
