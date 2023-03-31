@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Clicker : MonoBehaviour
 {
-    public double Money { get; set; } = 10000000d;
+    public double Money { get; set; } = 0d;
 
     readonly double baseEarning = 1d;
     public double UpgradedEarning { get; set; } = 0d;
@@ -17,15 +18,26 @@ public class Clicker : MonoBehaviour
 
     float timer = 0;
 
+    DateTime currentDate;
+    DateTime oldDate;
+
     private void Start()
     {
         StartSave();
         clickerUI.Init();
         CalculateMoneyPerSecond();
+        PerCerntEarning = 0.25d * clickerUI.ClicksUnlocked;
+        
+        currentDate = DateTime.Now;
+        long temp = Convert.ToInt64(PlayerPrefs.GetString("sysString"));
+        oldDate = DateTime.FromBinary(temp);
+        TimeSpan difference = currentDate.Subtract(oldDate);
+        Money += System.Math.Round(difference.TotalSeconds * EarningPerSecond);
+
+        
         clickerUI.UpdatMoneyPerSecondText(EarningPerSecond);
         clickerUI.UpdateMoneyText(Money);
 
-        PerCerntEarning = 0.25d * clickerUI.ClicksUnlocked;
     }
 
     private void Update()
@@ -75,26 +87,28 @@ public class Clicker : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        PlayerPrefs.SetString("money", Money.ToString());
-        PlayerPrefs.SetInt("muted", SoundManager.Instance.muted);
+        SaveData();
     }
 
     private void OnApplicationFocus(bool focus)
     {
         if (!focus)
-        {
-            PlayerPrefs.SetString("money", Money.ToString());
-            PlayerPrefs.SetInt("muted", SoundManager.Instance.muted);
-        }
+            SaveData();
 
-        //if (focus)
-        //    Money = double.Parse(PlayerPrefs.GetString("money", "0d"));
+        if (focus)
+            StartSave();
+    }
+
+    private void SaveData()
+    {
+        PlayerPrefs.SetString("money", Money.ToString());
+        PlayerPrefs.SetInt("muted", SoundManager.Instance.muted);
+        PlayerPrefs.SetString("sysString", DateTime.Now.ToBinary().ToString());
     }
 
     private void StartSave()
     {
-        //Money = double.Parse(PlayerPrefs.GetString("money", "0d"));
-
+        Money = double.Parse(PlayerPrefs.GetString("money", "0d"));
     }
 
 

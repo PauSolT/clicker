@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   increasedMultilpier: 2
   cost: 100
-  unlocked: 1
+  unlocked: 0
   genUnlocked: 1
   upgradeName: Coins!
   upgradeDescription: Upgrades coins multiplier by
