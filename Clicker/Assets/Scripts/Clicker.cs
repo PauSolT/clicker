@@ -14,7 +14,6 @@ public class Clicker : MonoBehaviour
 
     public ClickerUI clickerUI;
     public MoneyGenerator[] generators;
-    public List<UpgradeClickEarning> upgradeClickEarnings;
 
     float timer = 0;
 
@@ -23,20 +22,19 @@ public class Clicker : MonoBehaviour
 
     private void Start()
     {
-        StartSave();
-        Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Hola start");
+        //StartSave();
         clickerUI.Init();
         CalculateMoneyPerSecond();
         PerCerntEarning = 0.25d * clickerUI.ClicksUnlocked;
 
-        if (PlayerPrefs.HasKey("sysString"))
-        {
-            currentDate = DateTime.Now;
-            long temp = Convert.ToInt64(PlayerPrefs.GetString("sysString"));
-            oldDate = DateTime.FromBinary(temp);
-            TimeSpan difference = currentDate.Subtract(oldDate);
-            Money += System.Math.Round(difference.TotalSeconds * EarningPerSecond);
-        }
+        //if (PlayerPrefs.HasKey("sysString"))
+        //{
+        //    currentDate = DateTime.Now;
+        //    long temp = Convert.ToInt64(PlayerPrefs.GetString("sysString"));
+        //    oldDate = DateTime.FromBinary(temp);
+        //    TimeSpan difference = currentDate.Subtract(oldDate);
+        //    Money += System.Math.Round(difference.TotalSeconds * EarningPerSecond);
+        //}
 
 
         clickerUI.UpdatMoneyPerSecondText(EarningPerSecond);
@@ -89,51 +87,38 @@ public class Clicker : MonoBehaviour
         clickerUI.UpdatMoneyPerSecondText(EarningPerSecond);
     }
 
-    private void OnApplicationQuit()
-    {
-        SaveData();
-        Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Hola QUIt");
-    }
 
-    private void OnApplicationPause(bool pause)
-    {
-        if (pause)
-        {
-            SaveData();
-            Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Hola Pause");
-        }
+    //private void OnApplicationPause(bool pause)
+    //{
+    //    if (pause)
+    //    {
+    //        SaveData();
+    //    }
 
-        if (!pause)
-        {
-            StartSave();
-            Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Hola no Pause");
-        }
-    }
+    //    if (!pause)
+    //    {
+    //        StartSave();
+    //    }
+    //}
 
-    private void OnApplicationFocus(bool focus)
-    {
-        if (!focus)
-        {
-            SaveData();
-            Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Hola no focus");
-        }
+    //private void OnApplicationFocus(bool focus)
+    //{
+    //    if (!focus)
+    //    {
+    //        SaveData();
+    //    }
 
-        if (focus)
-        {
-            StartSave();
-            Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Hola focus");
-        }
-    }
+    //    if (focus)
+    //    {
+    //        StartSave();
+    //    }
+    //}
 
     private void SaveData()
     {
-        Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Save 1");
         PlayerPrefs.SetString("money", Money.ToString());
-        Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Save 2");
         PlayerPrefs.SetInt("muted", SoundManager.Instance.muted);
-        Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Save 3");
         PlayerPrefs.SetString("sysString", DateTime.Now.ToBinary().ToString());
-        Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Save 4");
     }
 
     private void StartSave()

@@ -25,7 +25,6 @@ public class SoundManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        muted = PlayerPrefs.GetInt("muted", 0);
         sounds = GetComponents<AudioSource>();
         if (muted == 1)
             MuteAll();

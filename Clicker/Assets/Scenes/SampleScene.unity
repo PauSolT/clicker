@@ -2224,7 +2224,7 @@ GameObject:
   - component: {fileID: 112011841}
   - component: {fileID: 112011840}
   m_Layer: 5
-  m_Name: Upgrade (1)
+  m_Name: DUpgrade (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4035,7 +4035,7 @@ GameObject:
   - component: {fileID: 202137193}
   - component: {fileID: 202137192}
   m_Layer: 5
-  m_Name: Upgrade (3)
+  m_Name: CUpgrade (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4963,7 +4963,7 @@ GameObject:
   - component: {fileID: 236532840}
   - component: {fileID: 236532839}
   m_Layer: 5
-  m_Name: Upgrade (13)
+  m_Name: DUpgrade (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5560,7 +5560,7 @@ GameObject:
   - component: {fileID: 259745048}
   - component: {fileID: 259745047}
   m_Layer: 5
-  m_Name: Upgrade (11)
+  m_Name: DUpgrade (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5856,7 +5856,7 @@ GameObject:
   - component: {fileID: 261335420}
   - component: {fileID: 261335419}
   m_Layer: 5
-  m_Name: Upgrade (9)
+  m_Name: DUpgrade (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6422,7 +6422,7 @@ GameObject:
   - component: {fileID: 311448350}
   - component: {fileID: 311448349}
   m_Layer: 5
-  m_Name: Upgrade (6)
+  m_Name: DUpgrade (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7234,7 +7234,7 @@ GameObject:
   - component: {fileID: 337286306}
   - component: {fileID: 337286305}
   m_Layer: 5
-  m_Name: Upgrade (3)
+  m_Name: DUpgrade (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8788,7 +8788,7 @@ GameObject:
   - component: {fileID: 406559961}
   - component: {fileID: 406559960}
   m_Layer: 5
-  m_Name: Upgrade (15)
+  m_Name: DUpgrade (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34748,7 +34748,7 @@ GameObject:
   - component: {fileID: 771402479}
   - component: {fileID: 771402478}
   m_Layer: 5
-  m_Name: Upgrade (5)
+  m_Name: DUpgrade (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35525,7 +35525,7 @@ GameObject:
   - component: {fileID: 814362692}
   - component: {fileID: 814362691}
   m_Layer: 5
-  m_Name: Upgrade (7)
+  m_Name: DUpgrade (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36278,7 +36278,7 @@ GameObject:
   - component: {fileID: 844810964}
   - component: {fileID: 844810963}
   m_Layer: 5
-  m_Name: Upgrade (12)
+  m_Name: DUpgrade (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36574,7 +36574,7 @@ GameObject:
   - component: {fileID: 858995450}
   - component: {fileID: 858995449}
   m_Layer: 5
-  m_Name: Upgrade (8)
+  m_Name: DUpgrade (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37993,7 +37993,7 @@ GameObject:
   - component: {fileID: 923996838}
   - component: {fileID: 923996837}
   m_Layer: 5
-  m_Name: Upgrade (2)
+  m_Name: DUpgrade (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48375,7 +48375,7 @@ GameObject:
   - component: {fileID: 952159651}
   - component: {fileID: 952159650}
   m_Layer: 5
-  m_Name: Upgrade (16)
+  m_Name: DUpgrade (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55838,7 +55838,7 @@ GameObject:
   - component: {fileID: 1079088226}
   - component: {fileID: 1079088225}
   m_Layer: 5
-  m_Name: Upgrade (4)
+  m_Name: DUpgrade (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58607,7 +58607,7 @@ GameObject:
   - component: {fileID: 1203944152}
   - component: {fileID: 1203944151}
   m_Layer: 5
-  m_Name: Upgrade (17)
+  m_Name: DUpgrade (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64838,7 +64838,7 @@ GameObject:
   - component: {fileID: 1279703389}
   - component: {fileID: 1279703388}
   m_Layer: 5
-  m_Name: Upgrade (10)
+  m_Name: DUpgrade (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65269,7 +65269,7 @@ GameObject:
   - component: {fileID: 1335991973}
   - component: {fileID: 1335991972}
   m_Layer: 5
-  m_Name: Upgrade (1)
+  m_Name: CUpgrade (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67161,7 +67161,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c078ae948cc438c4cb10b4f7b89bfe20, type: 2}
   - {fileID: 11400000, guid: 25720f60e3528ec4cb29a28cdd5915ff, type: 2}
   - {fileID: 11400000, guid: e76d223eefa9de345b5d387ffeae57f9, type: 2}
-  upgradeClickEarnings: []
 --- !u!4 &1396059238
 Transform:
   m_ObjectHideFlags: 0
@@ -76108,7 +76107,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 97.35
+  m_fontSize: 97.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -76384,7 +76383,7 @@ GameObject:
   - component: {fileID: 1647229490}
   - component: {fileID: 1647229489}
   m_Layer: 5
-  m_Name: Upgrade
+  m_Name: DUpgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76680,7 +76679,7 @@ GameObject:
   - component: {fileID: 1654097347}
   - component: {fileID: 1654097349}
   m_Layer: 5
-  m_Name: Upgrade
+  m_Name: CUpgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76840,7 +76839,7 @@ GameObject:
   - component: {fileID: 1662583253}
   - component: {fileID: 1662583252}
   m_Layer: 5
-  m_Name: Upgrade (2)
+  m_Name: CUpgrade (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78008,7 +78007,7 @@ GameObject:
   - component: {fileID: 1701999107}
   - component: {fileID: 1701999106}
   m_Layer: 5
-  m_Name: Upgrade (14)
+  m_Name: DUpgrade (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84010,6 +84009,105 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796623736}
   m_CullTransparentMesh: 1
+--- !u!1 &1804467641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1804467643}
+  - component: {fileID: 1804467642}
+  m_Layer: 0
+  m_Name: Save
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1804467642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804467641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecba30d2b25dbe940a97fdf54827c9b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generators:
+  - {fileID: 952240695}
+  - {fileID: 2038661053}
+  - {fileID: 243002774}
+  - {fileID: 1359203082}
+  - {fileID: 1436124753}
+  - {fileID: 676560972}
+  - {fileID: 1716264621}
+  - {fileID: 155956873}
+  - {fileID: 194189862}
+  - {fileID: 1055621607}
+  - {fileID: 1941757160}
+  - {fileID: 1403866655}
+  upgrades:
+  - {fileID: 1527600579}
+  - {fileID: 553144144}
+  - {fileID: 2047774110}
+  - {fileID: 381426903}
+  - {fileID: 1878514397}
+  - {fileID: 970055344}
+  - {fileID: 884313097}
+  - {fileID: 831383545}
+  - {fileID: 421413235}
+  - {fileID: 1675959532}
+  - {fileID: 1206412092}
+  - {fileID: 1572686768}
+  - {fileID: 80559030}
+  - {fileID: 1386537036}
+  - {fileID: 611974197}
+  - {fileID: 826677347}
+  - {fileID: 1587815766}
+  - {fileID: 530351900}
+  - {fileID: 1647229489}
+  - {fileID: 112011840}
+  - {fileID: 923996837}
+  - {fileID: 337286305}
+  - {fileID: 1079088225}
+  - {fileID: 771402478}
+  - {fileID: 311448349}
+  - {fileID: 814362691}
+  - {fileID: 858995449}
+  - {fileID: 261335419}
+  - {fileID: 1279703388}
+  - {fileID: 259745047}
+  - {fileID: 844810963}
+  - {fileID: 236532839}
+  - {fileID: 1701999106}
+  - {fileID: 406559960}
+  - {fileID: 952159650}
+  - {fileID: 1203944151}
+  clickUpgrades:
+  - {fileID: 1654097347}
+  - {fileID: 1335991972}
+  - {fileID: 1662583252}
+  - {fileID: 202137192}
+--- !u!4 &1804467643
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804467641}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.10795466, y: 2.5680723, z: 417.0247}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1805383098
 GameObject:
   m_ObjectHideFlags: 0
