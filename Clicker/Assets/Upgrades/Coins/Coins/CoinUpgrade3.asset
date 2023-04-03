@@ -15,6 +15,6 @@ MonoBehaviour:
   increasedMultilpier: 4
   cost: 50000
   unlocked: 0
-  genUnlocked: 1
+  genUnlocked: 0
   upgradeName: Gold Coins
   upgradeDescription: Upgrades coins multiplier by

@@ -24,17 +24,21 @@ public class Clicker : MonoBehaviour
     private void Start()
     {
         StartSave();
+        Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Hola start");
         clickerUI.Init();
         CalculateMoneyPerSecond();
         PerCerntEarning = 0.25d * clickerUI.ClicksUnlocked;
-        
-        currentDate = DateTime.Now;
-        long temp = Convert.ToInt64(PlayerPrefs.GetString("sysString"));
-        oldDate = DateTime.FromBinary(temp);
-        TimeSpan difference = currentDate.Subtract(oldDate);
-        Money += System.Math.Round(difference.TotalSeconds * EarningPerSecond);
 
-        
+        if (PlayerPrefs.HasKey("sysString"))
+        {
+            currentDate = DateTime.Now;
+            long temp = Convert.ToInt64(PlayerPrefs.GetString("sysString"));
+            oldDate = DateTime.FromBinary(temp);
+            TimeSpan difference = currentDate.Subtract(oldDate);
+            Money += System.Math.Round(difference.TotalSeconds * EarningPerSecond);
+        }
+
+
         clickerUI.UpdatMoneyPerSecondText(EarningPerSecond);
         clickerUI.UpdateMoneyText(Money);
 
@@ -88,27 +92,57 @@ public class Clicker : MonoBehaviour
     private void OnApplicationQuit()
     {
         SaveData();
+        Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Hola QUIt");
+    }
+
+    private void OnApplicationPause(bool pause)
+    {
+        if (pause)
+        {
+            SaveData();
+            Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Hola Pause");
+        }
+
+        if (!pause)
+        {
+            StartSave();
+            Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Hola no Pause");
+        }
     }
 
     private void OnApplicationFocus(bool focus)
     {
         if (!focus)
+        {
             SaveData();
+            Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Hola no focus");
+        }
 
         if (focus)
+        {
             StartSave();
+            Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Hola focus");
+        }
     }
 
     private void SaveData()
     {
+        Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Save 1");
         PlayerPrefs.SetString("money", Money.ToString());
+        Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Save 2");
         PlayerPrefs.SetInt("muted", SoundManager.Instance.muted);
+        Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Save 3");
         PlayerPrefs.SetString("sysString", DateTime.Now.ToBinary().ToString());
+        Debug.Log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Save 4");
     }
 
     private void StartSave()
     {
-        Money = double.Parse(PlayerPrefs.GetString("money", "0d"));
+        bool canParse = double.TryParse(PlayerPrefs.GetString("money"), out double num);
+        if (canParse)
+            Money = num;
+        else
+            Money = 0;
     }
 
 
@@ -128,7 +162,7 @@ public class Clicker : MonoBehaviour
         {
             c.a = alpha;
             text.color = c;
-            text.transform.position += 1 * Vector3.up * Time.deltaTime;
+            text.transform.position += 0.1f * Time.deltaTime * Vector3.up;
             yield return new WaitForSeconds(.01f);
         }
 

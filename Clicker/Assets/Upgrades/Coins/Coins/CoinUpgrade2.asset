@@ -15,6 +15,6 @@ MonoBehaviour:
   increasedMultilpier: 3
   cost: 5000
   unlocked: 0
-  genUnlocked: 1
+  genUnlocked: 0
   upgradeName: Silver Coins
   upgradeDescription: Upgrades coins multiplier by

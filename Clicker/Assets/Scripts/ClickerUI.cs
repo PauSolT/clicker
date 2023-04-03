@@ -22,6 +22,7 @@ public class ClickerUI : MonoBehaviour
         foreach (TextMeshProUGUI txt in clickMoneyList)
         {
             clickMoneyText.Enqueue(txt);
+            txt.gameObject.SetActive(false);
         }
 
         foreach (UpgradeClickEarning uc in upgradeClickEarnings)
