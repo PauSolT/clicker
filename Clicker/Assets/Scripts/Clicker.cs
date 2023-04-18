@@ -12,30 +12,19 @@ public class Clicker : MonoBehaviour
     public double PerCerntEarning { get; set; } = 0d;
     public double EarningPerSecond { get; set; } = 0d;
 
+    float timer = 0;
+
+    const float targetUpdateRate = 60f;
+
     public ClickerUI clickerUI;
     public MoneyGenerator[] generators;
 
-    float timer = 0;
-
-    DateTime currentDate;
-    DateTime oldDate;
-
     private void Start()
     {
-        //StartSave();
+        Application.targetFrameRate = -1;
         clickerUI.Init();
         CalculateMoneyPerSecond();
         PerCerntEarning = 0.25d * clickerUI.ClicksUnlocked;
-
-        //if (PlayerPrefs.HasKey("sysString"))
-        //{
-        //    currentDate = DateTime.Now;
-        //    long temp = Convert.ToInt64(PlayerPrefs.GetString("sysString"));
-        //    oldDate = DateTime.FromBinary(temp);
-        //    TimeSpan difference = currentDate.Subtract(oldDate);
-        //    Money += System.Math.Round(difference.TotalSeconds * EarningPerSecond);
-        //}
-
 
         clickerUI.UpdatMoneyPerSecondText(EarningPerSecond);
         clickerUI.UpdateMoneyText(Money);
@@ -46,7 +35,7 @@ public class Clicker : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if (timer >= 1f / EarningPerSecond)
+        if (timer >= 1f / targetUpdateRate)
         {
             MoneyPerSecond();
             timer = 0;
@@ -71,13 +60,13 @@ public class Clicker : MonoBehaviour
     void MoneyPerSecond()
     {
         CalculateMoneyPerSecond();
-        Money += 1;
+        Money += EarningPerSecond / (targetUpdateRate / 2f);
         clickerUI.UpdateMoneyText(Money);
     }
 
     public void CalculateMoneyPerSecond()
     {
-        double finalEarnings = 0;
+        double finalEarnings = 0d;
         foreach (MoneyGenerator generator in generators)
         {
             finalEarnings += generator.GetGold();
@@ -85,49 +74,6 @@ public class Clicker : MonoBehaviour
         EarningPerSecond = finalEarnings;
 
         clickerUI.UpdatMoneyPerSecondText(EarningPerSecond);
-    }
-
-
-    //private void OnApplicationPause(bool pause)
-    //{
-    //    if (pause)
-    //    {
-    //        SaveData();
-    //    }
-
-    //    if (!pause)
-    //    {
-    //        StartSave();
-    //    }
-    //}
-
-    //private void OnApplicationFocus(bool focus)
-    //{
-    //    if (!focus)
-    //    {
-    //        SaveData();
-    //    }
-
-    //    if (focus)
-    //    {
-    //        StartSave();
-    //    }
-    //}
-
-    private void SaveData()
-    {
-        PlayerPrefs.SetString("money", Money.ToString());
-        PlayerPrefs.SetInt("muted", SoundManager.Instance.muted);
-        PlayerPrefs.SetString("sysString", DateTime.Now.ToBinary().ToString());
-    }
-
-    private void StartSave()
-    {
-        bool canParse = double.TryParse(PlayerPrefs.GetString("money"), out double num);
-        if (canParse)
-            Money = num;
-        else
-            Money = 0;
     }
 
 

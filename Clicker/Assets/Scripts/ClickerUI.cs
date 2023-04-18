@@ -7,6 +7,8 @@ using TMPro;
 public class ClickerUI : MonoBehaviour
 {
     public TextMeshProUGUI moneyText;
+    public TextMeshProUGUI moneyText2;
+    public TextMeshProUGUI moneyText3;
     public TextMeshProUGUI moneyPerSecondText;
     public List<TextMeshProUGUI> clickMoneyList;
     public List<ParticleSystem> particles;
@@ -14,6 +16,7 @@ public class ClickerUI : MonoBehaviour
     public List<UpgradeClickEarning> upgradeClickEarnings;
 
     int i = 0;
+    int parsedNum = 0;
     public int ClicksUnlocked { get; set; } = 0;
 
     public void Init()
@@ -91,7 +94,17 @@ public class ClickerUI : MonoBehaviour
 
     public void UpdateMoneyText(double money)
     {
-        moneyText.text = TextGoldHelper(money);
+        string[] txt = TextGoldHelper(money).Split(".");
+        if (int.TryParse(txt[0], out parsedNum))
+            moneyText.text = parsedNum + ".";
+
+        if (txt.Length > 1)
+        {
+            if (int.TryParse(txt[1].Substring(0, 2), out parsedNum))
+                moneyText2.text = txt[1].Substring(0, 2);
+
+            moneyText3.text = txt[1].Substring(2, 3);
+        }
     }
 
     public void UpdatMoneyPerSecondText(double moneyPerSecond)
@@ -117,7 +130,7 @@ public class ClickerUI : MonoBehaviour
         if (money < 1000d)
         {
             numStr = money;
-            suffix = "";
+            suffix = " ";
         }
         else if (money < 1000000d)
         {
@@ -145,6 +158,6 @@ public class ClickerUI : MonoBehaviour
             suffix = "Q";
         }
 
-        return numStr.ToString("0.##") + suffix + " G";
+        return numStr.ToString("0.##") + suffix + " G" ;
     }
 }

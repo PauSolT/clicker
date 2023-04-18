@@ -10,7 +10,7 @@ public class SaveSystem : MonoBehaviour
     public UpgradeClickEarning[] clickUpgrades;
     Clicker clicker;
 
-    
+
     void Awake()
     {
         clicker = FindObjectOfType<Clicker>();
@@ -75,7 +75,7 @@ public class SaveSystem : MonoBehaviour
 
         LoadGenerators();
         LoadUpgrades();
-        LoadUpgrades();
+        LoadClickUpgrades();
     }
 
     void SaveGenerators()

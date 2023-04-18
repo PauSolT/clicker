@@ -3,35 +3,11 @@
     "m_SelectedPackage": {
         "deviceId": "U44TUOCQR4U8DIW8",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 26975,
+        "processId": 15044,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "U44TUOCQR4U8DIW8",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 15534,
-            "exited": true
-        },
-        {
-            "deviceId": "U44TUOCQR4U8DIW8",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 17526,
-            "exited": true
-        },
-        {
-            "deviceId": "U44TUOCQR4U8DIW8",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 18187,
-            "exited": true
-        },
-        {
-            "deviceId": "U44TUOCQR4U8DIW8",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 20182,
-            "exited": true
-        },
         {
             "deviceId": "U44TUOCQR4U8DIW8",
             "name": "com.oppo.launcher",
@@ -41,19 +17,49 @@
         {
             "deviceId": "U44TUOCQR4U8DIW8",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 22549,
+            "processId": 8382,
+            "exited": true
+        },
+        {
+            "deviceId": "U44TUOCQR4U8DIW8",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 8855,
+            "exited": true
+        },
+        {
+            "deviceId": "U44TUOCQR4U8DIW8",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 9381,
+            "exited": true
+        },
+        {
+            "deviceId": "U44TUOCQR4U8DIW8",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 9826,
+            "exited": true
+        },
+        {
+            "deviceId": "U44TUOCQR4U8DIW8",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 12441,
             "exited": false
         },
         {
             "deviceId": "U44TUOCQR4U8DIW8",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 23485,
+            "processId": 12995,
             "exited": false
         },
         {
             "deviceId": "U44TUOCQR4U8DIW8",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 26975,
+            "processId": 14442,
+            "exited": false
+        },
+        {
+            "deviceId": "U44TUOCQR4U8DIW8",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 15044,
             "exited": false
         }
     ],

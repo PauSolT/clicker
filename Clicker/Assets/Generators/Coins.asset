@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Coins
   m_EditorClassIdentifier: 
   baseGoldGenerator: 0.1
-  currentBaseGoldGenerator: 0.2
+  currentBaseGoldGenerator: 0.1
   currentGoldGenerator: 0
   baseCost: 10
   currentCost: 10

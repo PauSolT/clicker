@@ -37,9 +37,12 @@ public class GeneratorUI : MonoBehaviour
 
     public void UnlockUpgrades()
     {
-        foreach (MultiplierUpgrades go in upgrades)
+        if (generator.numberOfGenerators > 0)
         {
-            go.upgradeInfo.genUnlocked = true;
+            foreach (MultiplierUpgrades go in upgrades)
+            {
+                go.upgradeInfo.genUnlocked = true;
+            }
         }
     }
 
