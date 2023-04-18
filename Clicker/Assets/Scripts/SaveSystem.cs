@@ -11,38 +11,38 @@ public class SaveSystem : MonoBehaviour
     Clicker clicker;
 
 
-    void Awake()
-    {
-        clicker = FindObjectOfType<Clicker>();
+    //void Awake()
+    //{
+    //    clicker = FindObjectOfType<Clicker>();
 
-        LoadSave();
-    }
+    //    LoadSave();
+    //}
 
-    private void OnApplicationPause(bool pause)
-    {
-        if (pause)
-        {
-            StartSave();
-        }
+    //private void OnApplicationPause(bool pause)
+    //{
+    //    if (pause)
+    //    {
+    //        StartSave();
+    //    }
 
-        if (!pause)
-        {
-            LoadSave();
-        }
-    }
+    //    if (!pause)
+    //    {
+    //        LoadSave();
+    //    }
+    //}
 
-    private void OnApplicationFocus(bool focus)
-    {
-        if (!focus)
-        {
-            StartSave();
-        }
+    //private void OnApplicationFocus(bool focus)
+    //{
+    //    if (!focus)
+    //    {
+    //        StartSave();
+    //    }
 
-        if (focus)
-        {
-            LoadSave();
-        }
-    }
+    //    if (focus)
+    //    {
+    //        LoadSave();
+    //    }
+    //}
 
     public void StartSave()
     {

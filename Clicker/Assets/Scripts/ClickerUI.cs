@@ -94,6 +94,8 @@ public class ClickerUI : MonoBehaviour
 
     public void UpdateMoneyText(double money)
     {
+        Debug.Log(TextGoldHelper(money));
+
         string[] txt = TextGoldHelper(money).Split(".");
         if (int.TryParse(txt[0], out parsedNum))
             moneyText.text = parsedNum + ".";
@@ -158,6 +160,6 @@ public class ClickerUI : MonoBehaviour
             suffix = "Q";
         }
 
-        return numStr.ToString("0.##") + suffix + " G" ;
+        return numStr.ToString("F2") + suffix + " G" ;
     }
 }
