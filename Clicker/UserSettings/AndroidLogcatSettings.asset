@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "U44TUOCQR4U8DIW8",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 18520,
+        "processId": 3368,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -66,6 +66,60 @@
             "deviceId": "U44TUOCQR4U8DIW8",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 18520,
+            "exited": false
+        },
+        {
+            "deviceId": "U44TUOCQR4U8DIW8",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 31535,
+            "exited": false
+        },
+        {
+            "deviceId": "U44TUOCQR4U8DIW8",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 2559,
+            "exited": false
+        },
+        {
+            "deviceId": "U44TUOCQR4U8DIW8",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 3368,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R113V6FV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 26548,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R113V6FV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 29491,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R113V6FV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 31937,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R113V6FV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 3211,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R113V6FV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 6133,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8R113V6FV",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 10080,
             "exited": false
         }
     ],

@@ -94,9 +94,13 @@ public class ClickerUI : MonoBehaviour
 
     public void UpdateMoneyText(double money)
     {
-        Debug.Log(TextGoldHelper(money));
+        string[] txt = { };
 
-        string[] txt = TextGoldHelper(money).Split(".");
+        if (TextGoldHelper(money).Contains("."))
+            txt = TextGoldHelper(money).Split(".");
+        else if (TextGoldHelper(money).Contains(","))
+            txt = TextGoldHelper(money).Split(",");
+
         if (int.TryParse(txt[0], out parsedNum))
             moneyText.text = parsedNum + ".";
 
