@@ -70,7 +70,8 @@ public class SaveSystem : MonoBehaviour
             long temp = Convert.ToInt64(PlayerPrefs.GetString("sysString"));
             DateTime oldDate = DateTime.FromBinary(temp);
             TimeSpan difference = currentDate.Subtract(oldDate);
-            clicker.Money += System.Math.Round(difference.TotalSeconds * clicker.EarningPerSecond);
+            double afkSeconds = difference.TotalSeconds < 43200f ? difference.TotalSeconds : 43200f;
+            clicker.Money += System.Math.Round(afkSeconds * clicker.EarningPerSecond);
         }
 
         LoadGenerators();

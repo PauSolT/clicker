@@ -14,6 +14,7 @@ public class ClickerUI : MonoBehaviour
     public List<ParticleSystem> particles;
     public Queue<TextMeshProUGUI> clickMoneyText;
     public List<UpgradeClickEarning> upgradeClickEarnings;
+    public List<GameObject> upgrades;
 
     int i = 0;
     int parsedNum = 0;
@@ -21,6 +22,16 @@ public class ClickerUI : MonoBehaviour
 
     public void Init()
     {
+        foreach (TextMeshProUGUI text in FindObjectsOfType<TextMeshProUGUI>())
+        {
+            text.enableWordWrapping = false;
+        }
+        foreach (GameObject upg in upgrades)
+        {
+            upg.SetActive(false);
+        }
+
+
         clickMoneyText = new();
         foreach (TextMeshProUGUI txt in clickMoneyList)
         {
